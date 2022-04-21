@@ -274,6 +274,10 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .div-slider{
 	width:700px;
 }
+.sticky{
+	z-index:2;
+	position:relative;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
