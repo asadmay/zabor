@@ -291,6 +291,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .sticky-nav{
 	margin:5px 5px 5px 5px;
 }
+.sticky-nav:hover{
+	border-style:_NS:1874;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
