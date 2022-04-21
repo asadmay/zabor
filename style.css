@@ -147,6 +147,16 @@ a:hover{text-decoration: none; cursor:pointer;}
 /* = NavBar
 -------------------------------------------------------------- */
 
+/* = Sticky Nav
+-------------------------------------------------------------- */
+
+.sticky-nav.sticky{
+	position:fixed;
+	top:0;
+	z-index:1000;
+	box-shadow:0 1px 2px rgba(0,0,0,.3);
+	 transition: all .2s ease-out;
+}
 /* Handle Multi Level Navigation */
 .dropdown-menu .dropdown-menu{
 	border:none}
@@ -277,6 +287,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .sticky{
 	z-index:2;
 	position:relative;
+}
+.sticky-nav{
+	margin:5px 5px 5px 5px;
 }
 
 /* = Colour
