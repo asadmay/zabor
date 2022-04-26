@@ -7,7 +7,7 @@
 body{
 	margin:0;
 	padding:0;
-    background:#FFFFFF;
+    background:#FBFBFB;
     overflow-x:hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -41,6 +41,9 @@ a:hover{text-decoration: none; cursor:pointer;}
 
 .bloc-lg{
 	padding:100px 20px;
+}
+.bloc-sm{
+	padding:20px;
 }
 
 /* = Full Width Blocs 
@@ -147,16 +150,6 @@ a:hover{text-decoration: none; cursor:pointer;}
 /* = NavBar
 -------------------------------------------------------------- */
 
-/* = Sticky Nav
--------------------------------------------------------------- */
-
-.sticky-nav.sticky{
-	position:fixed;
-	top:0;
-	z-index:1000;
-	box-shadow:0 1px 2px rgba(0,0,0,.3);
-	 transition: all .2s ease-out;
-}
 /* Handle Multi Level Navigation */
 .dropdown-menu .dropdown-menu{
 	border:none}
@@ -268,6 +261,11 @@ button{
 	stroke-linecap:round;
 }
 
+/* Hide Object */
+.object-hidden{
+	display:none;
+}
+
 /* = Custom Styling
 -------------------------------------------------------------- */
 
@@ -278,21 +276,44 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .container{
 	max-width:1140px;
 }
-.img-prew{
-	border-radius:19px 19px 19px 19px;
-}
 .div-slider{
 	width:700px;
 }
-.sticky{
+.shadow{
+	border-style:solid;
+	border-color:#FFFFFF!important;
+	background-color:#FEFFFE;
+	box-shadow:0px 4px 12px rgba(13,35,67,0.03);
+	margin-bottom:10px;
+	padding:10px 10px 10px 10px;
+	border-radius:20px 20px 20px 20px;
+}
+.margin10{
+	margin-right:14px;
+	margin-left:14px;
+	z-index:3;
+	margin-top:20px;
+}
+.radius{
+	border-radius:20px 20px 20px 20px;
+}
+.padding-0{
+	padding-right:0px;
+	padding-left:0px;
+}
+.img{
+	border-radius:20px 20px 20px 20px;
+}
+.fixed{
+	position:fixed;
 	z-index:2;
-	position:relative;
-}
-.sticky-nav{
-	margin:5px 5px 5px 5px;
-}
-.sticky-nav:hover{
-	border-style:_NS:1874;
+	top:0px;
+	right:0px;
+	height:100vh;
+	width:340px;
+	margin-top:20px;
+	margin-right:0px;
+	margin-bottom:0px;
 }
 
 /* = Colour
@@ -402,6 +423,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 		width:250px;
 	}
 	p{
+	}
+	.h1-style{
+		font-size:20px;
 	}
 	
 }

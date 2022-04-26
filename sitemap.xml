@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url>
 	<loc>https://zabor.asadpro.ru</loc>
-	<lastmod>2022-04-21</lastmod>
+	<lastmod>2022-04-26</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>1.0</priority>
 	<image:image>
@@ -12,12 +12,16 @@
 </url>
 <url>
 	<loc>https://zabor.asadpro.ru/wood-fence-ideas.html</loc>
-	<lastmod>2022-04-21</lastmod>
+	<lastmod>2022-04-26</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
 	<image:loc>https://zabor.asadpro.ru/img/ranch-or-country-wood-fence-ideas-7.jpeg</image:loc>
 	<image:title>ranch or-country-wood-fence-ideas-7.jpeg</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://zabor.asadpro.ru/img/placeholder-image.png</image:loc>
+	<image:title>placeholder image</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>https://zabor.asadpro.ru/img/modern-wood-fence-ideas-3.jpeg</image:loc>
