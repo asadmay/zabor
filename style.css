@@ -277,7 +277,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	max-width:1140px;
 }
 .div-slider{
-	width:700px;
+	width:100%;
 }
 .shadow{
 	border-style:solid;
@@ -300,6 +300,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .padding-0{
 	padding-right:0px;
 	padding-left:0px;
+	padding-top:0px;
 }
 .img{
 	border-radius:20px 20px 20px 20px;
@@ -319,6 +320,24 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	width:300px;
 	height:600px;
 	background-color:rgba(51,51,51,0.20);
+}
+.button{
+	margin-top:10px;
+	border-radius:20px 20px 20px 20px;
+}
+.prew{
+	padding-left:10px;
+}
+.cont{
+	padding-top:10px;
+	padding-bottom:0px;
+}
+.bloc{
+	padding-top:0px;
+	margin-top:0px;
+}
+h2{
+	font-size:24px;
 }
 
 /* = Colour
@@ -412,6 +431,15 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 @media (max-width: 991px){
 	.h1-style{
 		font-size:30px;
+	}
+	.margin10{
+		margin-right:0px;
+	}
+	.shadow{
+	}
+	.container{
+		padding-bottom:0px;
+		padding-top:0px;
 	}
 	
 }
